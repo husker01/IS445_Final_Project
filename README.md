@@ -47,3 +47,25 @@ Where the weights are defined as:
 - (gamma) (for AST): 2
 - (delta) (for STL): 3
 - (epsilon) (for BLK): 3
+
+
+Misktake Score = alpha * TOV + beta * PF
+
+
+Where the weights are defined as:
+- (alpha) (for PTS): 10
+- (beta) (for TRB): 15
+
+## FINAL VISUALIZATION INDIVIDUAL
+-In IS445_Li_Luwei_Individual.ipynb file, I did the data cleaning of the NBA_Player_Stats_2.csv, gather the useful information such as TRB, AST, STL, BLK, PTS, Season, TOV, PF in order to apply my formula to calculate the best player of the year.
+My dataframe has player score, TRB, AST, STL, BLK, PTS, TOV, PF
+
+## FINAL VISUALIZATION PEERS
+-In IS445_Li_Luwei_Peers.ipynb file, I created a Radar Plot of the best player's stats in season 2020, 2021, 2022. The stats are including STL, AST, TRB, BLK, and PTS
+
+## FINAL VISUALIZATION GENERAL PUBLIC
+-In IS445_Li_Luwei_General_Public.ipynb file, I created a Radar Plot of the Positive Score (attack score) and negative score (mistake score) of the best players in season 2020, 2021, 2022. 
+the Attack Score is showing public that the player's attack effeiency, the higher the better. 
+the Mistake Score is showing public that how often player make mistakes, the higher the worse. 
+
+
